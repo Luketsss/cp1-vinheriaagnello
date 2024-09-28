@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Contato - Vinheria Agnello</title>
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img src="./images/grape-removebg-preview.png" alt="grape"
+                    class="grape">
+                <h1 class="title">Vinheria Agnello</h1>
+            </div>
+        </header>
+        <nav>
+            <div class="nav">
+                <a href="index.html" class="paginas">Início</a>
+                <a href="Mundo dos Vinhos.html" class="paginas">Mundo dos Vinhos</a>
+                <a href="armazen.html" class="paginas">Armazenagem</a>
+                <a href="produtos.html" class="paginas">Produtos</a>
+                <a href="contato.html" class="paginas">Contato</a>
+            </div>
+        </nav>
+        <main class="main_contact">
+            <section class="form_section">
+                <h2>Fale Conosco</h2>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome:</label>
+                    <input type="text" name="name" placeholder="Digite seu nome"
+                        autocomplete="off" required>
+                    <label>Email:</label>
+                    <input type="email" name="email"
+                        placeholder="Digite seu email"
+                        autocomplete="off" required>
+                    <label>Mensagem:</label>
+                    <textarea name="message" cols="30" rows="10"
+                        placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey"
+                        value="d2e44e3b-b557-4dc3-8619-9652b5b35912">
+                    <input type="hidden" name="redirectTo"
+                        value="http://127.0.0.1:5500/obrigado.html">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <h4>Contato</h4>
+
+            <p>
+                Telefone: +55 11 0293-8493
+            </p>
+            <p>
+                E-mail: contato@agnellovinheria.com.br
+            </p>
+            <p>
+                Vinheria Agnello, 2024 © Todos os direitos reservados
+            </p>
+        </footer>
+    </body>
+</html>
